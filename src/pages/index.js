@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
-import Chilling from "../images/chilling.svg";
-import computer from "../images/computer.svg";
 
+import Intro from "../components/Intro";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Why from "../components/Why";

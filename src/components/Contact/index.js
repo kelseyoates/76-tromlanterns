@@ -43,7 +43,7 @@ export default class ContactForm extends React.Component {
   </div>
   
 
-<div className="flex flex-col md:flex-row px-1 pt-5"> 
+<div className="flex flex-col md:flex-row px-8 pt-5"> 
         <form
           name="contact"
           className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1"
