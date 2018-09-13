@@ -21,7 +21,7 @@ const Services = () => (
     <div className=" sm:w-1/1 md:w-1/2 lg:w-1/1 text-center mx-auto px-8">
       <img src={training} />
     </div>
-    <div className="sm:w-1/1 md:w-1/2 lg:w-1/1 px-8">
+    <div className="sm:w-1/1 md:w-1/2 lg:w-1/1 px-8 mt-37">
       <div className="article-title secondary text-white">
         <h4>Team Training</h4>
       </div>
@@ -37,7 +37,7 @@ const Services = () => (
 <div className=" sm:w-1/1 md:w-1/2 lg:w-1/1 text-center mx-auto px-8">
   <img src={embedded} />
 </div>
-<div className="sm:w-1/1 md:w-1/2 lg:w-1/1 px-8">
+<div className="sm:w-1/1 md:w-1/2 lg:w-1/1 px-8 mt-37">
   <div className="article-title secondary text-white">
     <h4>Embedded Consultants</h4>
   </div>
@@ -56,7 +56,7 @@ const Services = () => (
 <div className=" sm:w-1/1 md:w-1/2 lg:w-1/1 text-center mx-auto px-8">
   <img src={reports} />
 </div>
-<div className="sm:w-1/1 md:w-1/2 lg:w-1/1 px-8">
+<div className="sm:w-1/1 md:w-1/2 lg:w-1/1 px-8 mt-37">
   <div className="article-title secondary text-white">
     <h4>Risk Reports</h4>
   </div>
