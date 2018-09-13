@@ -32,10 +32,10 @@ export default class ContactForm extends React.Component {
   render() {
     return (
 
-    <div>
+    <div id="contact">
 
 
-      <div className="flex flex-col px-1 pt-10"> 
+      <div className="flex flex-col px-9 pt-10"> 
       <h2 className="text-center">Let's get to work.</h2>
       <p className="leading-loose text-center">
       Let us know what you're looking for and we'll get back to you as soon as possible.
@@ -43,7 +43,7 @@ export default class ContactForm extends React.Component {
   </div>
   
 
-<div className="flex flex-col md:flex-row px-8 pt-5"> 
+<div className="flex flex-col md:flex-row px-9 pt-5"> 
         <form
           name="contact"
           className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1"
@@ -71,7 +71,7 @@ export default class ContactForm extends React.Component {
               <input 
               className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
             
-              placeholder="Rob G."
+              placeholder="Jane Smith"
               type="text" name="name" onChange={this.handleChange} />
             </label>
           </p>
@@ -81,7 +81,7 @@ export default class ContactForm extends React.Component {
               <input type="email" 
               className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
             
-              placeholder="patsrule@hotmail.com"
+              placeholder="jsmith@company.com"
               name="email" onChange={this.handleChange} />
             </label>
           </p>
@@ -91,7 +91,7 @@ export default class ContactForm extends React.Component {
               <textarea 
               className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
             
-              placeholder="Have I told you about Tide's new detergent?"
+              placeholder="Looking for a political risk analyst..."
               name="message" onChange={this.handleChange} />
             </label>
           </p>

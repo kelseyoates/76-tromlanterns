@@ -6,8 +6,8 @@ const Hero = () => (
 
   <div className="bg-hero">
 
-          <div className="flex flex-col md:flex-row items-center px-9 pt-10"> 
-          <div className="md:w-2/3 sm:w-3/3">
+          <div className="flex flex-col row-reverse md:flex-row items-center px-9 pt-10"> 
+          <div className="md:w-1/2 sm:w-3/3 pb-3">
                 <h1 className="white">
                 Because political risk shouldn't be a gamble.
                 </h1>
@@ -18,7 +18,7 @@ const Hero = () => (
         <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Let's Go</button>
       </Link>
             </div>
-            <div className="md:w-2/3 sm:w-3/3 text-center">
+            <div className="md:w-1/2 sm:w-3/3 text-center ">
                 <img src={computer} className="hero"/>
             </div>
     

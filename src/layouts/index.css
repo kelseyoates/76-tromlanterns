@@ -807,6 +807,10 @@ box-shadow: 0 -15px 15px -20px rgba(0, 0, 0, 0.9), 0 15px 15px -20px rgba(0, 0, 
 align-items: flex-start;
 }
 
+.items-baseline {
+  align-items: baseline;
+  }
+
 .justify-between {
   justify-content: space-between;
 }
@@ -973,11 +977,10 @@ img.plays {
   background-color: white;
   padding-top: 2em;
   padding-bottom: 2em;
-  text-align: center;
+
 }
 
 .article-title {
-
   padding-top: 2em;
   padding-bottom: 2em;
   text-align: center;
@@ -989,9 +992,7 @@ img.plays {
 .article {
   padding-top: .5em;
   padding-bottom: .5em;
-  padding-left: 1.3em;
-  padding-right: 1.3em;
-
+  margin-bottom: 1em;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -1127,6 +1128,10 @@ img.header {
   margin-top: 20rem;
 }
 
+.mt-02 {
+  margin-top: 2rem;
+}
+
 
 
 .mr-6 {
@@ -1226,6 +1231,10 @@ button.services {
 }
 
 
+.pb-3 {
+  padding-bottom: 3rem;
+}
+
 
 .fill-current {
   fill: currentColor;
@@ -1269,6 +1278,8 @@ button.services {
   font-family: "objektiv-mk1",sans-serif;
   font-style: normal;
   font-weight: 400;
+  text-align: right;
+
 }
 
 .text-xl {
@@ -1311,6 +1322,11 @@ button.services {
 .w-full {
   width: 100%;
 }
+
+.w-auto {
+  width: auto;
+}
+
 
 /**
   * Here you would add any custom utilities you need that don't come out of the
@@ -1361,18 +1377,21 @@ button.services {
     }
 
     .pt-10 {
-      padding-top: 5rem;
+      padding-top: 3rem;
     }
 
+    .mt-5 {
+      margin-top: 1rem;
+    }
 
     .px-8 {
-      padding-left: 1rem;
-      padding-right: 1rem;
+      padding-left: .5rem;
+      padding-right: .5rem;
     }
     
 .px-9 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 
@@ -1392,6 +1411,26 @@ button.services {
       font-size: 1em;
       font-weight: 700;
   }
+.no-small {
+  visibility: hidden;
+  display: none;
+}
+
+/* show reverse by horizontal row */
+.row-reverse { display: flex; flex-direction: column-reverse; }
+
+
+img.hero {
+ display: none;
+}
+
+.mt-4 {
+  margin-top: 3rem;
+}
+
+.xsm\:block {
+  display: block;
+}
 
 
   }
@@ -1430,7 +1469,7 @@ button.services {
 }
 
 .pt-10 {
-  padding-top: 10rem;
+  padding-top: 1rem;
 }
 
 
@@ -1439,6 +1478,51 @@ button.services {
   padding-right: 2rem;
 }
 
+.no-small {
+  visibility: hidden;
+  display: none;
+}
+
+/* show reverse by horizontal row */
+.row-reverse { display: flex; flex-direction: column-reverse; }
+
+img.hero {
+  max-width: 200px;
+  height: auto;
+  display: inline;
+}
+
+.mt-4 {
+  margin-top: 10rem;
+}
+
+.sm\:w-auto {
+  width: auto;
+}
+
+.sm\:inline-block {
+  display: inline-block;
+}
+
+.sm\:hidden {
+  display: none;
+}
+
+.sm\:flex {
+  display: flex;
+}
+
+.sm\:flex-row {
+  flex-direction: row;
+}
+
+.sm\:items-center {
+  align-items: center;
+}
+
+.sm\:justify-center {
+  justify-content: center;
+}
 
 
 }
@@ -1465,8 +1549,8 @@ button.services {
   }
 
   .px-1 {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .px-2 {
@@ -1474,13 +1558,30 @@ button.services {
     padding-right: 5rem;
   }
 
+  .px-9 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
 
+  
   .pt-5 {
     padding-top: 2rem;
   }
   .pt-10 {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
+
+  img.hero {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .no-small {
+    visibility: visible;
+  }
+
+  /* show reverse by horizontal row */
+.row-reverse { display: flex; flex-direction: row-reverse; }
 
 
 
@@ -1539,17 +1640,25 @@ button.services {
 .md\:w-2\/3 {
   width: 66.66667%;
 }
+img.hero {
+  max-width: 300px;
+  height: auto;
+}
 
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
 
   .px-2 {
     padding-left: 8rem;
     padding-right: 8rem;
   }
 
+
+  .lg\:w-1\/1 {
+    width: 100%;
+  }
 
   .lg\:w-1\/2 {
     width: 50%;
@@ -1567,6 +1676,12 @@ button.services {
   .lg\:w-2\/3 {
     width: 66.66667%;
 }
+
+img.hero {
+  max-width: 100%;
+  height: auto;
+}
+
 }
 
 @media (min-width: 1400px) {
