@@ -11,7 +11,6 @@ const Services = () => (
   <div id="services">
      <div className="flex flex-col px-1 pt-5 mt-5"> 
       <h2 className="text-center">Services</h2>
-
   </div>
 
 

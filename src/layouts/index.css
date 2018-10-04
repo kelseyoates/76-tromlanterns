@@ -15,7 +15,7 @@
 
 @import url("https://use.typekit.net/ahe6icy.css");
 
-@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow|Sue+Ellen+Francisco');
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow|Questrial|Sue+Ellen+Francisco');
 
 
 
@@ -370,27 +370,27 @@ html {
 
 h1 {
   font-size: 3em;
-  font-family: "objektiv-mk1",sans-serif;
+  font-family: "Questrial",sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
 h2 {
   font-size: 2.5em;
-  font-family: "objektiv-mk1",sans-serif;
+  font-family: "Questrial",sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
 }
 
 h3 {
-  font-family: "objektiv-mk1",sans-serif;
+  font-family: "Questrial",sans-serif;
   font-style: normal;
 }
 
 h4 {
   font-size: 1.2em;
-  font-family: "objektiv-mk1",sans-serif;
+  font-family: "Questrial",sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
@@ -400,7 +400,7 @@ h4 {
 
 h6 {
   color: #858585;
-  font-family: "objektiv-mk1",sans-serif;
+  font-family: "Questrial",sans-serif;
   font-style: italic;
   font-weight: 300;
   margin-top: 0;
@@ -1044,7 +1044,13 @@ p.article {
 }
 
 
-
+img.logo {
+  max-width: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
 
 
 img.small {
@@ -1275,7 +1281,7 @@ button.services {
 
 .text-sm {
   font-size: .875rem;
-  font-family: "objektiv-mk1",sans-serif;
+  font-family: "Questrial",sans-serif;
   font-style: normal;
   font-weight: 400;
   text-align: right;
@@ -1531,7 +1537,7 @@ img.hero {
 
   h1 {
     font-size: 3em;
-    font-family: "objektiv-mk1",sans-serif;
+    font-family: "Questrial",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-style: normal;
