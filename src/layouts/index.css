@@ -1433,6 +1433,9 @@ img.hero {
 .mt-4 {
   margin-top: 3rem;
 }
+     .mt-37 {
+     margin-top: .5em;
+     }
 
 .xsm\:block {
   display: block;
@@ -1501,7 +1504,10 @@ img.hero {
 .mt-4 {
   margin-top: 10rem;
 }
-
+   .mt-37 {
+     margin-top: 1em;
+     }
+   
 .sm\:w-auto {
   width: auto;
 }
