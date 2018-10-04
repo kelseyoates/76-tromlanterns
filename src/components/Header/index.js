@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import logoSmall from "../../images/logo-small.svg";
 
 const Header = () => {
   const handleClick = function(e) {
@@ -14,9 +15,7 @@ const Header = () => {
     <nav className="primary">
       <div className="flex flex-wrap items-baseline justify-between mx-auto px-4">
         <Link to="/" className="flex  no-underline text-white">
-          <span className="font-bold text-xl tracking-tight">
-           Two Lanterns
-          </span>
+            <img src={logoSmall} className="logo" alt="Two Lanterns Logo"/>
         </Link>
 
         <button
