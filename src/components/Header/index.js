@@ -50,6 +50,12 @@ const Header = () => {
             >
               Services
             </Link>
+    
+ <a href="https://medium.com/@twolanterns"
+              className=" px-4 xsm:block sm:inline-block mt-02 no-underline text-white"
+            >
+              Blog
+            </a>
 
             <Link
               to="/#contact"
