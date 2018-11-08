@@ -41,9 +41,9 @@ const Services = () => (
     <h4>Embedded Consultants</h4>
   </div>
   <div className="article px-1">
-  <p className="article ">Need a political risk, but don’t have time to staff up? Bring on a Two Lanterns consultant.</p>
+  <p className="article ">Need political risk analysis, but don’t have time to staff up? Bring on a Two Lanterns consultant.</p>
 
-<p className="article ">Our consultant comes to your organization with Two Lanterns’ cutting-edge political risk methodology and workflow. They work with your organization to identify the challenge, facilitate input from stakeholders, research the issue where needed, and develop a solution. The process is collaborative and harnesses the capabilities of both Two Lanterns and your organization.</p>
+<p className="article ">Our consultant comes to your organization with Two Lanterns’ cutting-edge political risk methodology and workflow. They work with your organization to identify the challenge, facilitate input from stakeholders, research the issues, and develop a solution. The process is collaborative and harnesses the capabilities of Two Lanterns and your organization.</p>
   </div>
 </div>  
 

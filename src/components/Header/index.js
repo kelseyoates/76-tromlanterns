@@ -2,7 +2,6 @@ import React from "react";
 import Link from "gatsby-link";
 import logoSmall from "../../images/logo-small.svg";
 
-
 const Header = () => {
   const handleClick = function(e) {
     const el = document.getElementById("nav");
@@ -64,6 +63,12 @@ const Header = () => {
             >
               Services
             </Link>
+    
+ <a href="https://medium.com/@twolanterns"
+              className=" px-4 xsm:block sm:inline-block mt-02 no-underline text-white"
+            >
+              Blog
+            </a>
 
  <a href="https://medium.com/@twolanterns"
               className=" px-4 xsm:block sm:inline-block mt-02 no-underline text-white"
