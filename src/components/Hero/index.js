@@ -15,7 +15,7 @@ const Hero = () => (
                 The world is more complicated than ever. The old methods leave you exposed to risk and carry high costs. Two Lanterns is here to fix that. 
                 </p>
                 <Link to="/contact" className="block md:inline-block py-3 md:mt-0 no-underline text-white">
-        <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Let's Go</button>
+        <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-green font-bold px-6 py-3 rounded text-sm text-white">Let's Go</button>
       </Link>
             </div>
             <div className="md:w-1/2 sm:w-3/3 text-center ">

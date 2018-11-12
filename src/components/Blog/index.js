@@ -24,7 +24,7 @@ const Blog = () => (
             <a href="https://medium.com/@twolanterns/midterms-2018-lessons-for-political-risk-ae5b9569991b"
               className=" px-4 xsm:block sm:inline-block mt-02 no-underline text-white"
             >
-            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Keep Reading</button>
+            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-green font-bold px-6 py-3 rounded text-sm text-white">Keep Reading</button>
             </a>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Blog = () => (
             <a href="https://medium.com/@twolanterns/how-can-we-measure-political-risk-when-we-cant-measure-political-risk-3232f7ce5fa8"
               className=" px-4 xsm:block sm:inline-block mt-02 no-underline text-white"
             >
-            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-pink font-bold px-6 py-3 rounded text-sm text-white">Keep Reading</button>
+            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-green font-bold px-6 py-3 rounded text-sm text-white">Keep Reading</button>
             </a>
           </div>
         </div>

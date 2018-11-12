@@ -602,6 +602,10 @@ button,
   background-color: #fff;
 }
 
+.bg-blue {
+  background-color: #2f3448;
+}
+
 .bg-dark-purple {
   background-color: #5e6990;
 }
@@ -742,6 +746,10 @@ box-shadow: 0 -15px 15px -20px rgba(0, 0, 0, 0.9), 0 15px 15px -20px rgba(0, 0, 
 
 .hover\:bg-pink:hover {
   background-color: #df1183;
+}
+
+.hover\:bg-green:hover {
+  background-color: #190B28;
 }
 
 

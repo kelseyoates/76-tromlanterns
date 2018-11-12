@@ -97,7 +97,7 @@ export default class ContactForm extends React.Component {
           </p>
           <p>
             <button 
-            className="border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white"
+            className="border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-green font-bold px-6 py-3 rounded text-sm text-white"
             type="submit">Send</button>
           </p>
         </form>
