@@ -21,11 +21,12 @@ const Blog = () => (
           </div>
           <div className="article px-1">
             <p className="article ">The US midterm elections yesterday are the biggest story of the week. Here are some quick thoughts about what they can teach us for political risk and its practice.</p>
+            <p className="article-link">
             <a href="https://medium.com/@twolanterns/midterms-2018-lessons-for-political-risk-ae5b9569991b"
-              className=" px-4 xsm:block sm:inline-block mt-02 no-underline text-white"
-            >
-            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-green font-bold px-6 py-3 rounded text-sm text-white">Keep Reading</button>
-            </a>
+              className="px-4 xsm:block sm:inline-block hover:bg-secondary highlight mt-02 font-italic no-underline text-grey-darker">
+        Keep Reading →
+            </a></p>
+            
           </div>
         </div>
 
@@ -35,11 +36,11 @@ const Blog = () => (
           </div>
           <div className="article px-1">
             <p className="article ">A Martin Wolf column in the Financial Times earlier this month discusses how political risk, and political developments more generally, are impacting global markets. It’s a good article, but one odd item jumped out at me.</p>
+            <p className="article-link">
             <a href="https://medium.com/@twolanterns/how-can-we-measure-political-risk-when-we-cant-measure-political-risk-3232f7ce5fa8"
-              className=" px-4 xsm:block sm:inline-block mt-02 no-underline text-white"
-            >
-            <button className="border-grey-darker hover:border-grey-dark bg-dark-purple hover:bg-green font-bold px-6 py-3 rounded text-sm text-white">Keep Reading</button>
-            </a>
+              className="px-4 xsm:block sm:inline-block hover:bg-secondary highlight mt-02 font-italic no-underline text-grey-darker">
+        Keep Reading →
+            </a></p>
           </div>
         </div>
 

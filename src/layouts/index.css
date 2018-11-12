@@ -749,12 +749,19 @@ box-shadow: 0 -15px 15px -20px rgba(0, 0, 0, 0.9), 0 15px 15px -20px rgba(0, 0, 
 }
 
 .hover\:bg-green:hover {
-  background-color: #190B28;
+  background-color: #f1f5f8;
+  color: #3d4852;
+}
+
+.hover\:bg-secondary:hover {
+  background-color: #A9B3CE;
+  /* color:  #f1f5f8; */
+  color: #3d4852;
 }
 
 
 .hover\:bg-grey:hover {
-  background-color: #b8c2cc;
+  background-color: #3d4852;
 }
 
 .border-grey-darkest {
@@ -1023,6 +1030,21 @@ p.article {
   box-shadow: none;
 }
 
+p.article-link {
+  font-weight: 300;
+  font-size: .9em;
+  text-align: right;
+  color: #5E6990;
+  font-style: italic;
+  
+}
+
+.highlight {
+  background-color: #f1f5f8;
+  border-radius: 5px;
+  padding: 5px;
+
+}
 
 
 
@@ -1275,6 +1297,10 @@ button.services {
 
 .text-right {
   text-align: right;
+}
+
+.text-slant {
+  font-style: italic;
 }
 
 .text-justify {
