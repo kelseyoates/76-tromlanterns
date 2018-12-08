@@ -2,8 +2,11 @@ module.exports = {
   siteMetadata: {
     title: 'Two Lanterns',
   },
-  plugins: [
+
+  plugins: 
+  [
     'gatsby-plugin-react-helmet',
+
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
@@ -11,6 +14,6 @@ module.exports = {
         sv: 6
       },
     },
-  
-  ],
+]
+
 };
