@@ -11,7 +11,7 @@ const Services = () => (
   <div id="services">
      <div className="flex flex-col px-1 pt-5 mt-5"> 
       <h2 className="text-center">Services</h2>
-  </div>
+      </div>
 
 
 <div className="flex flex-wrap items-top px-8 py-2"> 
@@ -43,7 +43,7 @@ const Services = () => (
   <div className="article px-1">
   <p className="article ">Need political risk analysis, but don’t have time to staff up? Bring on a Two Lanterns consultant.</p>
 
-<p className="article ">Our consultant comes to your organization with Two Lanterns’ cutting-edge political risk methodology and workflow. They work with your organization to identify the challenge, facilitate input from stakeholders, research the issues, and develop a solution. The process is collaborative and harnesses the capabilities of Two Lanterns and your organization.</p>
+<p className="article"> Our consultant comes to your organization with Two Lanterns’ cutting-edge political risk methodology and workflow. They work with your organization to identify the challenge, facilitate input from stakeholders, research the issues, and develop a solution. The process is collaborative and harnesses the capabilities of Two Lanterns and your organization.</p>
   </div>
 </div>  
 

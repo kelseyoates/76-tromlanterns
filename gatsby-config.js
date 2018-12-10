@@ -4,16 +4,6 @@ module.exports = {
   },
 
   plugins: 
-  [
-    'gatsby-plugin-react-helmet',
-
-    {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        id: 1120706,
-        sv: 6
-      },
-    },
-]
+  ['gatsby-plugin-react-helmet'],
 
 };
