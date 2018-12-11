@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import logoSmall from "../../images/logo-small.svg";
 
+
 const Header = () => {
   const handleClick = function(e) {
     const el = document.getElementById("nav");
