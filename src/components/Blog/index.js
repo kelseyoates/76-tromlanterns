@@ -16,7 +16,7 @@ const Blog = () => (
 
 
 
-//   article 1
+
         <div className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1 px-9 ">
           <div className="article-title secondary text-white">
           <h5>Massachusetts network theory and unconventional political data</h5>
@@ -34,7 +34,7 @@ const Blog = () => (
 </div>
 
   
-  //   article 2
+
     <div className="flex flex-col md:flex-row px-9 pt-5"> 
         <div className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1 px-9 ">
           <div className="article-title secondary text-white">
