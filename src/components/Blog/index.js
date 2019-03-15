@@ -14,30 +14,17 @@ const Blog = () => (
       <h2 className="text-center">Research and Insights</h2>
     </div>
 
-    <div className="flex flex-col md:flex-row px-9 pt-5"> 
-        <div className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1 px-9 ">
-          <div className="article-title secondary text-white">
-          <h5>Midterms 2018: Lessons for political risk</h5>
-          </div>
-          <div className="article px-1">
-            <p className="article ">The US midterm elections yesterday are the biggest story of the week. Here are some quick thoughts about what they can teach us for political risk and its practice.</p>
-            <p className="article-link">
-            <a href="https://medium.com/@twolanterns/midterms-2018-lessons-for-political-risk-ae5b9569991b"
-              className="px-4 xsm:block sm:inline-block hover:bg-secondary highlight mt-02 font-italic no-underline text-grey-darker">
-        Keep Reading →
-            </a></p>
-            
-          </div>
-        </div>
 
+
+//   article 1
         <div className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1 px-9 ">
           <div className="article-title secondary text-white">
-          <h5>How can we measure political risk when we can’t measure political risk?</h5>
+          <h5>Massachusetts network theory and unconventional political data</h5>
           </div>
           <div className="article px-1">
-            <p className="article ">A Martin Wolf column in the Financial Times earlier this month discusses how political risk, and political developments more generally, are impacting global markets. It’s a good article, but one odd item jumped out at me.</p>
+            <p className="article ">CommonWealth magazine yesterday ran my article about using network theory to understand how cosponsorships in legislation indicate a social structure underlying the state government. Basically, we can take the web of legislators who have cosponsored bills with each other, treat that like a social network, and use some sociological methods to tease out some insights about what that social structure means.</p>
             <p className="article-link">
-            <a href="https://medium.com/@twolanterns/how-can-we-measure-political-risk-when-we-cant-measure-political-risk-3232f7ce5fa8"
+            <a href="https://medium.com/@twolanterns/massachusetts-network-theory-and-unconventional-political-data-b764ad3a9f30"
               className="px-4 xsm:block sm:inline-block hover:bg-secondary highlight mt-02 font-italic no-underline text-grey-darker">
         Keep Reading →
             </a></p>
@@ -46,6 +33,26 @@ const Blog = () => (
 
 </div>
 
+  
+  //   article 2
+    <div className="flex flex-col md:flex-row px-9 pt-5"> 
+        <div className="mx-auto md:w-1/2 sm:w-2/3 xsm:w-1/1 px-9 ">
+          <div className="article-title secondary text-white">
+          <h5>2018: Recapping the year in political risk</h5>
+          </div>
+          <div className="article px-1">
+            <p className="article ">Around this time of year, you start to see lists of the top political risks for the next 12 months. </p>
+  <p className="article ">But we rarely see lists evaluating how our previous predictions performed. Yet even if it is not as topical, assessing past predictions is the only sure path towards a collective improvement and evolution of political risk as a practice. </p>
+  <p className="article ">So before I write my own top risks for 2019, here’s an overview of what the political risk world got right, got wrong, and completely missed in 2018.</p>
+            <p className="article-link">
+            <a href="https://medium.com/@twolanterns/2018-recapping-the-year-in-political-risk-a1313428efed"
+              className="px-4 xsm:block sm:inline-block hover:bg-secondary highlight mt-02 font-italic no-underline text-grey-darker">
+        Keep Reading →
+            </a></p>
+            
+          </div>
+        </div>
+  
 
   </div>
 );
